@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Pendulum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<style>
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 10px solid purple;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <div class="container">
+        <p>Tweak the parameters</p>
+        <span>Change of angle per second</span>
+        <div class="row">
+            <div class="col s4">
+                <input type="number" id="a1"/>
+                <label for="">For the first rotator</label>
+               
+            </div>
+            <div class="col s4">
+                <input type="number" id="a2">
+                <label for="">For the second rotator</label>
+              
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"
+        integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ=="
+        crossorigin="anonymous"></script>
+    <script src="doublePendulum.js"></script>
+</body>
+
+</html>
